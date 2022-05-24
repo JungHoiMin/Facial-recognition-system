@@ -21,7 +21,7 @@ def face_extractor(img):
     return cropped_face
 
 
-def take_pictures():
+def take_pictures(name):
     if not isdir(face_dirs+name):
         makedirs(face_dirs+name)
 
@@ -36,7 +36,7 @@ def take_pictures():
             face = cv2.resize(face_extractor(frame),(200,200))
             face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
 
-            file_name_path = face_dirs+'picture' + str(count) + '.jpg'
+            file_name_path = face_dirs + name + '/user'+str(count)+'.jpg'
             cv2.imwrite(file_name_path,face)
 
             cv2.putText(face,str(count),(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
@@ -53,5 +53,7 @@ def take_pictures():
     print('Colleting Samples Complete!!!')
 
 
-if __name__=="__main__":
-    take_pictures()
+if __name__ == "__main__":
+    print(" user name >> ")
+    username = input()
+    take_pictures(username)
