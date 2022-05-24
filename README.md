@@ -3,11 +3,11 @@
 <!-- 
     Custom badge form
     아이콘 확인 사이트: https://simpleicons.org/
-    <img alt="설명" src ="https://img.shields.io/badge/기술명-원하는색상코드.svg?&style=for-the-badge&logo=로고명&logoColor=로고색상"/>
+    <img src="https://img.shields.io/badge/기술명-원하는색상코드?&style=flat&logo=로고명&logoColor=로고색상"/>
  -->
-    <img alt="Python" src = "https://img.shields.io.badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white">
-    <img alt="Android Studio" src ="https://img.shields.io/badge/Android-3DDC84.svg?&style=for-the-badge&logo=Android&logoColor=white"/>
-    <img alt="Kotlin" src ="https://img.shields.io/badge/Kotlin-7F52FF.svg?&style=for-the-badge&logo=Kotlin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white">
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=Android&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=Kotlin&logoColor=white"/>
 </p>
 
 라즈베리파이3를 이용한 사용자 안면 인식 출입 시스템 프로젝트
