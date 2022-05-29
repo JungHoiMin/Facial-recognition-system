@@ -113,11 +113,12 @@ def distanceCheck():
             print("detected something")
             break
 
+
 def sendMQTT(name):
     msg = name+" is comming"
     mq = mqtt.Client("JUNG-pub")
-    mq.connect("localhost", 1883)
-    mq.publish("JUNG/sensor", msg)
+    mq.connect("broker.mqtt-dashboard.com", 1883)
+    mq.publish("jhm", msg)
     mq.loop(2)
 
 if __name__ == "__main__":
