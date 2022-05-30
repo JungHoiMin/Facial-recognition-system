@@ -14,6 +14,12 @@ MQTT Client
  - Kotlin
  - MQTT 라이브러리
 
+## Screenshot
+- 연결 시
+<img src="../img/client_mqtt_connection.png">
+<img src="../img/client_mqtt_user_comming.png">
+<img src="../img/client_mqtt_outsider_comming.png">
+
 ## Working Process
 1. 앱 실행.
 2. 상단에 ip 주소와 포트번호를 설정하고 연결 버튼을 클릭합니다.
