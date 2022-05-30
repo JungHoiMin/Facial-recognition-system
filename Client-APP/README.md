@@ -15,10 +15,12 @@ MQTT Client
  - MQTT 라이브러리
 
 ## Screenshot
-- 연결 시
-<img src="../img/client_mqtt_connection.png">
-<img src="../img/client_mqtt_user_comming.png">
-<img src="../img/client_mqtt_outsider_comming.png">
+- 연결, 사용자 인식, 외부인 인식
+<p>
+    <img src="../img/client_mqtt_connection.png">
+    <img src="../img/client_mqtt_user_comming.png">
+    <img src="../img/client_mqtt_outsider_comming.png">
+</p>
 
 ## Working Process
 1. 앱 실행.
